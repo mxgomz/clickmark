@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/areaprof.css">
-    <title>Área do Profissional</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click&Mark - Profissional</title>
+  <link rel="stylesheet" href="style/areaprof.css">
 </head>
 <body>
-    
+  <div class="container">
+    <div class="sidebar">
+      <div class="logo">Click&Mark</div>
+      <a href="#">Perfil</a>
+      <a href="#">Configurações</a>
+      <a href="index.html">Sair</a>
+    </div>
 
-
+    <div class="content">
+      <h2>Painel do Profissional</h2>
+      <div class="menu-profissional">
+        <div class="menu-item" onclick="window.location.href='pendentes.html'">
+          Solicitações Pendentes
+        </div>
+        <div class="menu-item" onclick="window.location.href='aceitas.html'">
+          Solicitações Aceitas
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
