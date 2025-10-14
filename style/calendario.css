@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #2f4bff;
+  background: linear-gradient(-45deg, #d7d7d7, #bbb);
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #1e58e7;
+    background: linear-gradient(-45deg, #d7d7d7, #bbb);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@ body {
 }
 
 .sidebar {
-  background: #2f4bff;
+  background: #1e81e2;
   color: white;
   width: 220px;
   padding: 20px;
@@ -77,17 +77,19 @@ h2 {
 }
 
 .category {
-  background: #2f4bff;
+  background: linear-gradient(-45deg, #1ec0da, #1e58e7);
   color: white;
   text-align: center;
-  padding: 60px 0;
+  padding: 30px 0;
   border-radius: 8px;
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.3s ease;
 }
 
 .category:hover {
-  background: #1e34c9;
+  background: linear-gradient(-45deg, #1e58e7, #1ec0da);
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(255, 165, 0, 0.6);
 }
