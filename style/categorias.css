@@ -11,8 +11,8 @@ body {
 .container {
   display: flex;
   background: white;
-  width: 800px;
-  height: 500px;
+  width: 1000px;
+  height: 600px;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
@@ -60,7 +60,7 @@ body {
 
 .content {
   flex: 1;
-  padding: 20px;
+  padding: 40px;
 }
 
 .search {
@@ -91,5 +91,5 @@ h2 {
 .category:hover {
   background: linear-gradient(-45deg, #1e58e7, #1ec0da);
   transform: scale(1.1);
-  box-shadow: 0 0 10px rgba(255, 165, 0, 0.6);
+  box-shadow: 0 0 10px rgba(30, 88, 231, 0.6);
 }

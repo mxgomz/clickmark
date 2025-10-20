@@ -11,15 +11,15 @@ body {
 .container {
   display: flex;
   background: white;
-  width: 800px;
-  height: 500px;
+  width: 1000px;
+  height: 600px;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 .sidebar {
-  background: #2f4bff;
+  background: #1e81e2;
   color: white;
   width: 220px;
   padding: 20px;
@@ -47,7 +47,7 @@ body {
 
 .content {
   flex: 1;
-  padding: 20px;
+  padding: 40px;
 }
 
 h2 {

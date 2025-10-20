@@ -15,22 +15,22 @@ body {
 
 .container {
   display: flex;
-  width: 80%;
-  height: 75vh;
+  width: 1000px;
+  height: 600px;
   background: white;
-  border-radius: 16px;
+  border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 .sidebar {
-  background: #2746f4;
+  background: #1e81e2;
   color: #fff;
-  width: 25%;
-  padding: 30px;
+  width: 220px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 10px;
 }
 
 .sidebar h1 {

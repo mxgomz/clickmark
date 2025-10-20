@@ -11,15 +11,15 @@ body {
 .container {
   display: flex;
   background: white;
-  width: 800px;
-  height: 500px;
+  width: 1000px;
+  height: 600px;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 .sidebar {
-  background: #2f4bff;
+  background: #1e81e2;
   color: white;
   width: 220px;
   padding: 20px;
@@ -47,7 +47,7 @@ body {
 
 .content {
   flex: 1;
-  padding: 20px;
+  padding: 40px;
 }
 
 h2 {
@@ -63,7 +63,7 @@ h2 {
 }
 
 .menu-item {
-  background: #2f4bff;
+  background: linear-gradient(-45deg, #1ec0da, #1e58e7);
   color: white;
   text-align: center;
   padding: 60px 0;
@@ -75,7 +75,7 @@ h2 {
 }
 
 .menu-item:hover {
-  background: #1e34c9;
+  background: linear-gradient(-45deg, #1e58e7, #1ec0da);
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;

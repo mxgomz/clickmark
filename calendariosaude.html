@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click&Mark - Beleza</title>
+  <link rel="stylesheet" href="style/calendario.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">Click&Mark</div>
+      <h1>Saúde</h1>
+    </div>
+    <div class="content">
+      <h2>Psicologia</h2>
+      <div class="legenda">
+        <span class="disponivel"></span> Disponíveis
+        <span class="indisponivel"></span> Indisponíveis
+        <span class="fechado"></span> Fechado
+      </div>
+      <div class="calendar">
+        <div class="mes">Outubro 2025</div>
+        <div class="semana">
+          <div>Segunda</div>
+          <div>Terça</div>
+          <div>Quarta</div>
+          <div>Quinta</div>
+          <div>Sexta</div>
+          <div>Sábado</div>
+          <div>Domingo</div>
+        </div>
+        <div class="dias">
+            <div class="disponivel">1</div>
+            <div class="indisponivel">2</div>
+            <div class="fechado">3</div>
+            <div class="fechado">4</div>
+            <div class="disponivel">5</div>
+            <div class="indisponivel">6</div>
+            <div class="disponivel">7</div>
+            <div class="indisponivel">8</div>
+            <div class="disponivel">9</div>
+            <div class="fechado">10</div>
+            <div class="fechado">11</div>
+            <div class="disponivel">12</div>
+            <div class="disponivel">13</div>
+            <div class="indisponivel">14</div>
+            <div class="disponivel">15</div>
+            <div class="indisponivel">16</div>
+            <div class="fechado">17</div>
+            <div class="fechado">18</div>
+            <div class="indisponivel">19</div>
+            <div class="disponivel">20</div>
+            <div class="disponivel">21</div>
+            <div class="indisponivel">22</div>
+            <div class="disponivel">23</div>
+            <div class="fechado">24</div>
+            <div class="fechado">25</div>
+            <div class="disponivel">26</div>
+            <div class="indisponivel">27</div>
+            <div class="disponivel">28</div>
+            <div class="indisponivel">29</div>
+            <div class="disponivel">30</div>
+            <div class="fechado">31</div>
+        </div>
+
+        <div class="backhome">
+          <a href="categorias.html">Voltar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>Horários disponíveis</h3>
+      <div id="horarios" class="horarios"></div>
+    </div>
+  </div>
+
+<script src="script/calendario.js"></script>
+
+
+</body>
+</html>
