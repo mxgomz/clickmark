@@ -5,14 +5,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 .container {
   display: flex;
   background: white;
   width: 1000px;
-  height: 600px;
+  height: 100%;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
@@ -82,62 +87,77 @@ h2 {
   transition: 0.3s;
 }
 
-.menu-item2 {
-  background: linear-gradient(-45deg, #12893f, #0d612d);
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.user-table th {
+  background: #1e81e2;
   color: white;
-  text-align: center;
-  padding: 60px 0;
-  border-radius: 8px;
-  font-size: 20px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.3s;
+  padding: 12px;
+  text-align: left;
 }
 
-.menu-item2:hover {
-  background: linear-gradient(-45deg, #0d612d, #12893f);
-  font-size: 20px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.3s;
+.user-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #ccc;
 }
 
-.menu-item3 {
-  background: linear-gradient(-45deg, #1ec0da, #1e58e7);
+.user-table tr:hover {
+  background: #f3f7ff;
+}
+
+button.refresh-btn {
+  background: #1e81e2;
   color: white;
-  text-align: center;
-  padding: 60px 0;
+  border: none;
   border-radius: 8px;
-  font-size: 20px;
-  font-weight: bold;
+  padding: 10px 18px;
+  font-size: 16px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-.menu-item3:hover {
-  background: linear-gradient(-45deg, #1e58e7, #1ec0da);
-  font-size: 20px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.3s;
+button.refresh-btn:hover {
+  background: #1558a8;
 }
 
-.menu-item4 {
-  background: linear-gradient(-45deg, #1ec0da, #1e58e7);
+button.senha-btn {
+  background: linear-gradient(-45deg, #ffa000, #ff8f00);
   color: white;
-  text-align: center;
-  padding: 60px 0;
-  border-radius: 8px;
-  font-size: 20px;
-  font-weight: bold;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-.menu-item4:hover {
-  background: linear-gradient(-45deg, #1e58e7, #1ec0da);
-  font-size: 20px;
-  font-weight: bold;
-  cursor: pointer;
+button.senha-btn:hover {
+  background: linear-gradient(-45deg, #ff8f00, #ffa000);
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.top-bar input {
+  width: 250px;
+  padding: 10px 14px;
+  border: 2px solid #1e81e2;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
   transition: 0.3s;
+}
+
+.top-bar input:focus {
+  border-color: #1558a8;
+  box-shadow: 0 0 4px #1e81e2;
 }

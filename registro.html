@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click&Mark - Registro de Usuários</title>
+  <link rel="stylesheet" href="style/registro.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <div class="logo">Click&Mark</div>
+      <a href="areaprof.html">Painel</a>
+      <a href="perfilprof.html">Perfil</a>
+      <a href="#">Configurações</a>
+      <a href="index.html">Sair</a>
+    </div>
+
+    <div class="content">
+      <h2>Registro de Usuários</h2>
+       <div class="top-bar">
+        <input type="text" id="buscaCPF" placeholder="Buscar por CPF..." />
+        <div>
+          <button class="refresh-btn" onclick="atualizarLista()">Atualizar Lista</button>
+        </div>
+      </div>
+
+      <table class="user-table">
+        <thead>
+          <tr>
+            <th>CPF</th>
+            <th>Nome</th>
+            <th>Data de Nascimento</th>
+            <th>Senha</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody id="tabelaUsuarios">
+        
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="script/registro.js"></script>
+</body>
+</html>

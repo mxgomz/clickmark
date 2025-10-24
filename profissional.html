@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/profissional.css">
-    <title>Área do Profissional</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/profissional.css">
+  <title>Área do Profissional</title>
 </head>
 <body>
   <div class="container">
     <img src="clickmark.png" alt="Logo" width="140px">
-    <input type="text" placeholder="CPF">
+
+    <input id="cpf" type="text" placeholder="CPF" maxlength="14" inputmode="numeric">
     <input type="password" placeholder="Senha">
+    
     <button onclick="window.location.href='areaprof.html'">Login</button>
     <a href="recuperarsenha.html">Esqueci minha senha</a>
     <a href="index.html"><button>Área do Cliente</button></a>
   </div>
 
-
+  <script src="script/cpf-mask.js"></script>
 </body>
 </html>
