@@ -63,7 +63,7 @@ h2 {
 }
 
 .menu-item {
-  background: linear-gradient(-45deg, #aba50c, #c7c10c);
+  background: linear-gradient(-45deg, #7FFFD4, #20B2AA, #008B8B);
   color: white;
   text-align: center;
   padding: 60px 0;
@@ -75,7 +75,7 @@ h2 {
 }
 
 .menu-item:hover {
-  background: linear-gradient(-45deg, #c7c10c, #aba50c);
+  background: linear-gradient(-45deg, #008B8B, #20B2AA, #7FFFD4);
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
@@ -83,7 +83,7 @@ h2 {
 }
 
 .menu-item2 {
-  background: linear-gradient(-45deg, #12893f, #0d612d);
+  background: linear-gradient(-45deg, #46d47c, #55c680);
   color: white;
   text-align: center;
   padding: 60px 0;
@@ -95,7 +95,7 @@ h2 {
 }
 
 .menu-item2:hover {
-  background: linear-gradient(-45deg, #0d612d, #12893f);
+  background: linear-gradient(-45deg, #55c680, #46d47c);
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;

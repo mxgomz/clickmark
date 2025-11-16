@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerenciar Calendário - Click&Mark</title>
+  <link rel="stylesheet" href="style/gerenciar-calendario.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <div class="logo">Click&Mark</div>
+      <a href="areaprof.html">Painel</a>
+      <a href="perfilprof.html">Perfil</a>
+      <a href="#">Configurações</a>
+      <a href="index.html">Sair</a>
+    </div>
+
+    <div class="content">
+      <h2>Gerenciar Calendário</h2>
+      <p>Selecione um dia para abrir o painel de controle.</p>
+
+      <div class="calendar">
+        <div class="mes">Outubro 2025</div>
+        <div class="semana">
+          <div>Seg</div><div>Ter</div><div>Qua</div><div>Qui</div><div>Sex</div><div>Sáb</div><div>Dom</div>
+        </div>
+
+        <div class="dias" id="dias">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>Gerenciar Dia <span id="diaSelecionado"></span></h3>
+      <div class="botoes">
+        <button id="btnDisponivel" class="btn verde">Tornar Disponível</button>
+        <button id="btnIndisponivel" class="btn vermelho">Tornar Indisponível</button>
+        <button id="btnFechado" class="btn cinza">Fechar Dia</button>
+        <button id="btnHorarios" class="btn azul">Gerenciar Horários</button>
+      </div>
+
+      <div id="horariosBox" class="horariosBox">
+        <h4>Horários</h4>
+        <div id="listaHorarios" class="listaHorarios"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script/gerenciar-calendario.js"></script>
+</body>
+</html>
